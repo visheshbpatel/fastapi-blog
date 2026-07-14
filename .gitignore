@@ -1,20 +1,18 @@
-# Virtual Environment
 .venv/
-
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
 
-# Environment variables
 .env
-
-# VS Code
 .vscode/
-
-# PyCharm
 .idea/
 
-# OS files
+*.db
+media/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
 .DS_Store
 Thumbs.db
+*.log
